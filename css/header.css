@@ -58,6 +58,7 @@
     background-color: var(--c11);
     padding: 12px 16px;
     border-radius: 4px;
+    font-size: 1.125rem;
   }
 
   .header-menu li a:after {
@@ -74,15 +75,19 @@
   }
 
   .header {
+    justify-content: center;
   }
 
   .header-menu {
+    gap: 10px;
   }
 
   .header-menu li {
   }
 
   .header-menu li a {
+    padding: 8px 12px;
+    font-size: 1rem;
   }
 
   .header-menu li a:after {

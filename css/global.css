@@ -35,6 +35,11 @@
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
 /* ESTILOS TIPOGRAFICOS - FONTS */
 
 .font-1-l {
