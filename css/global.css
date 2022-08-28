@@ -1,4 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+:root {
+  --c1: #f7f7f7;
+  --c2: #ededed;
+  --c3: #dedede;
+  --c4: #cccccc;
+  --c5: #b2b2b2;
+  --c6: #9c9c9c;
+  --c7: #717171;
+  --c8: #595959;
+  --c9: #404040;
+  --c10: #2e2e2e;
+  --c11: #111111;
+  --c12: #000000;
+  --w: #ffffff;
+  --p1: #ffbb00;
+  --p2: #e4a30b;
+  --p3: #a66f00;
+  --p4: #664400;
+  --p5: #332200;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* ESTILOS TIPOGRAFICOS - FONTS */
+
+.font-1-l {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.font-1-xl {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.font-1-xxl {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 1.2;
 }
