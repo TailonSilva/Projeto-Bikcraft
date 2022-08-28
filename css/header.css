@@ -70,11 +70,12 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .header-bg {
   }
 
   .header {
+    flex-direction: column;
     justify-content: center;
   }
 

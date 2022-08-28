@@ -41,24 +41,55 @@ img {
 }
 
 /* ESTILOS TIPOGRAFICOS - FONTS */
+/* POPPINS */
 
-.font-1-l {
+.font-1-p {
   font-family: "Poppins";
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 1.5;
 }
 
-.font-1-xl {
+.font-1-m {
   font-family: "Poppins";
   font-weight: 600;
   font-size: 2rem;
   line-height: 1.5;
 }
 
-.font-1-xxl {
+.font-1-g {
   font-family: "Poppins";
   font-weight: 600;
   font-size: 4rem;
-  line-height: 1.2;
+  line-height: 1.125;
+}
+
+/* ROBOTO */
+
+.font-2-p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.125;
+}
+
+.font-2-m {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+.font-2-g {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+.font-2-gg {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2.25;
 }
