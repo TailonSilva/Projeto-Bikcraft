@@ -104,6 +104,12 @@ a {
   }
 }
 
+/* PONTO AMARELO */
+
+.ponto {
+  color: var(--p1);
+}
+
 /* ESTILOS TIPOGRAFICOS - FONTS */
 /* POPPINS */
 
