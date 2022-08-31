@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap");
 
 * {
   margin: 0;
@@ -72,11 +73,20 @@ a {
   }
 }
 
+.btn.secundario {
+  background: var(--c10);
+  color: var(--c2);
+}
+
+.btn.secundario:hover {
+  background: var(--c9);
+}
+
 /* LINK AMARELOS */
 .link {
   display: inline-block;
   color: var(--p1);
-  font: 600 1.5rem/1.5 "Poppins";
+  font: 600 1.5rem/1.5 "Poppins", sans-serif;
   text-transform: uppercase;
   transition: 0.1s;
 }
@@ -95,7 +105,7 @@ a {
 
 @media (max-width: 900px) {
   .link {
-    font: 400 1.125rem/1.1 "Poppins";
+    font: 400 1.125rem/1.1 "Poppins", sans-serif;
   }
 
   .link::after {
@@ -114,21 +124,21 @@ a {
 /* POPPINS */
 
 .font-1-p {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 1.5;
 }
 
 .font-1-m {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 2rem;
   line-height: 1.5;
 }
 
 .font-1-g {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 4rem;
   line-height: 1.125;
@@ -162,4 +172,60 @@ a {
   font-weight: 600;
   font-size: 1.5rem;
   line-height: 2.25;
+}
+
+/* CORES */
+.c0 {
+  color: var(--w);
+}
+.c1 {
+  color: var(--c1);
+}
+.c2 {
+  color: var(--c2);
+}
+.c3 {
+  color: var(--c3);
+}
+.c4 {
+  color: var(--c4);
+}
+.c5 {
+  color: var(--c5);
+}
+.c6 {
+  color: var(--c6);
+}
+.c7 {
+  color: var(--c7);
+}
+.c8 {
+  color: var(--c8);
+}
+.c9 {
+  color: var(--c9);
+}
+.c10 {
+  color: var(--c10);
+}
+.c11 {
+  color: var(--c11);
+}
+.c12 {
+  color: var(--c12);
+}
+.p1 {
+  color: var(--p1);
+}
+.p2 {
+  color: var(--p2);
+}
+.p3 {
+  color: var(--p3);
+}
+.p4 {
+  color: var(--p4);
+}
+.p4 {
+  color: var(--p5);
 }
